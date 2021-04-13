@@ -1,0 +1,43 @@
+/* Fonts */
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+/* Components */
+@import url("components/container.css");
+@import url("components/pricing-cards.css");
+@import url("components/btn.css");
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Quicksand", "Helvetica", "sans-serif";
+  color: rgb(100,100,100);
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 100px auto;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  margin: 30px;
+}
+
+.intro {
+  margin-bottom: 60px;
+}
+
+.intro p {
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+}
+

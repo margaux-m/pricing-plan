@@ -1,0 +1,64 @@
+.pricing-cards {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.pricing-card {
+  text-align: center;
+  border: 3px solid #f17300;
+  width: 270px;
+  border-radius: 20px;
+}
+
+.pricing-card h3 {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.pricing-card h4 {
+  font-weight: 700;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 20px;
+  line-height: 1.8;
+  font-size: 0.9em;
+}
+
+.pricing-big {
+  font-size: 2em;
+  color: #f17300;
+  margin: 0;
+}
+
+.card-popular {
+  width: 290px;
+  height: 500px;
+  background: linear-gradient(100deg, #f17300, #f17300 40%, #f17300b0);
+  color: white;
+  border: none;
+  box-shadow: 2px 3px 10px rgba(0,0,0,0.3);
+}
+
+.card-popular p {
+  color: white;
+}
+
+.card-popular h3 {
+  margin-top: 50px;
+}
+
+.fa-check {
+  color: #f17300;
+}
+
+.fa-times {
+  color: #000000;
+}
+
+.card-popular .fa-check {
+  color: white;
+}
